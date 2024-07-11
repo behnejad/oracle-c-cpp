@@ -25,6 +25,7 @@ private:
 public:
 	explicit timer(const char * name) : title(name)
 	{
+//		cout << '[' << name << "] starts" << endl;
 		start = high_resolution_clock::now();
 	}
 
